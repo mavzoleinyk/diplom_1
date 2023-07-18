@@ -938,7 +938,16 @@ This is the child theme for Astra theme, generated with Generate Child Theme plu
 
 /* WOOCOMMERCE */
 .grid-products{
-    
+    display: grid; 
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+.summary.entry-summary .cart{
+    display: none;
+}
+.add_to_cart_button{
+    display: none;
 }
 /* WOOCOMMERCE / */
 
