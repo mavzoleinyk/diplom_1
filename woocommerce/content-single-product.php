@@ -52,7 +52,7 @@ if ( post_password_required() ) {
 
       <!-- это summary товара -->
       <div class="col-lg-8">
-        <div class="summary entry-summary">
+        <div class="summary entry-summary single-product">
           <?php
           /**
            * Hook: woocommerce_single_product_summary.
